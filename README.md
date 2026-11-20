@@ -10,13 +10,13 @@ A clean, lightning-fast, and cross-platform Git workflow toolkit for **Zsh** and
 
 ## Features
 
-- ⚡ **Productivity Boost**: Ergonomic shortcuts for everyday Git commands (`gs`, `ga`, `gd`, `gco`, `gp`, `gl`).
-- 🧠 **Smart Commit Function**: `gc` opens your `$EDITOR` if called without arguments, or commits directly via `gc "commit message"`.
-- 🔄 **Safe Reset & Recovery**: `gundo` safely rolls back the last commit keeping files staged; `gpristine` discards untracked and modified files.
-- 🎯 **Branch Navigation**: `gmain` instantly switches to `main` (or falls back to `master`).
-- ⌨️ **Tab-Completion Hooks**: Integrates with Zsh (`compdef`) and Bash (`__git_complete`) so your aliases retain context-aware tab completion.
-- 📖 **Interactive Help**: Run `ghelp` or `ghelp <category>` (e.g. `ghelp branch`, `ghelp commit`) with color-coded terminal output.
-- 📦 **Zero Dependencies**: Pure POSIX shell compatible. Works on macOS, Linux, WSL, and Git Bash on Windows.
+- **Productivity Boost**: Ergonomic shortcuts for everyday Git commands (`gs`, `ga`, `gd`, `gco`, `gp`, `gl`).
+- **Smart Commit Function**: `gc` opens your `$EDITOR` if called without arguments, or commits directly via `gc "commit message"`.
+- **Safe Reset & Recovery**: `gundo` safely rolls back the last commit keeping files staged; `gpristine` discards untracked and modified files.
+- **Branch Navigation**: `gmain` instantly switches to `main` (or falls back to `master`).
+- **Tab-Completion Hooks**: Integrates with Zsh (`compdef`) and Bash (`__git_complete`) so your aliases retain context-aware tab completion.
+- **Interactive Help**: Run `ghelp` or `ghelp <category>` (e.g. `ghelp branch`, `ghelp commit`) with color-coded terminal output.
+- **Zero Dependencies**: Pure POSIX shell compatible. Works on macOS, Linux, WSL, and Git Bash on Windows.
 
 ---
 
