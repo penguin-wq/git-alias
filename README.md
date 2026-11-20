@@ -1,23 +1,3 @@
-# git-alias
-
-[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20WSL%20%7C%20Windows-blue.svg)](#cross-platform-support)
-[![Shell](https://img.shields.io/badge/shell-bash%20%7C%20zsh-green.svg)](#installation)
-[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](LICENSE)
-
----
-
-## Features
-
-- **Productivity Boost**: Ergonomic shortcuts for everyday Git commands (`gs`, `ga`, `gd`, `gco`, `gp`, `gl`).
-- **Smart Commit Function**: `gc` opens your `$EDITOR` if called without arguments, or commits directly via `gc "commit message"`.
-- **Safe Reset & Recovery**: `gundo` safely rolls back the last commit keeping files staged; `gpristine` discards untracked and modified files.
-- **Branch Navigation**: `gmain` instantly switches to `main` (or falls back to `master`).
-- **Tab-Completion Hooks**: Integrates with Zsh (`compdef`) and Bash (`__git_complete`) so your aliases retain context-aware tab completion.
-- **Interactive Help**: Run `ghelp` or `ghelp <category>` (e.g. `ghelp branch`, `ghelp commit`) with color-coded terminal output.
-- **Zero Dependencies**: Pure POSIX shell compatible. Works on macOS, Linux, WSL, and Git Bash on Windows.
-
----
-
 ## Installation
 
 ### 1. One-Line Install (Recommended)
