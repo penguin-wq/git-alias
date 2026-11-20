@@ -4,8 +4,6 @@
 [![Shell](https://img.shields.io/badge/shell-bash%20%7C%20zsh-green.svg)](#installation)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](LICENSE)
 
-A clean, lightning-fast, and cross-platform Git workflow toolkit for **Zsh** and **Bash**. It provides intuitive two-to-four letter aliases, smart helper functions, tab-completion hooks, and an interactive categorized help system.
-
 ---
 
 ## Features
