@@ -1,0 +1,6 @@
+# Enforce LF endings on shell scripts across all platforms
+* text=auto
+*.sh text eol=lf
+*.zsh text eol=lf
+.bashrc text eol=lf
+.zshrc text eol=lf
